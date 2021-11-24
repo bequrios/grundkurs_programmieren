@@ -1,0 +1,32 @@
+[
+    {
+        "name": "REGN-COV2",
+        "manufacturer": "Roche",
+        "type": "antibody drug",
+        "authorisation": false,
+        "approval_process": "phase_II/III",
+        "dosage": "not yet known"
+    },
+    {
+        "name": "Spikevax",
+        "manufacturer": "Moderna",
+        "type": "vaccination",
+        "subtype": "mRNA vaccination",
+        "authorisation": true,
+        "dosage": {
+            "no_of_doses_required": 2,
+            "time_between": 30,
+            "booster_possible": true
+        }
+    },
+    {
+        "name": "Driponin",
+        "active_substances": ["Ivermectin", "Butylhydroxyanisole"],
+        "manufacturer": "Infectopharm",
+        "type": "medication",
+        "authorisation": {
+            "parasite infestation": true,
+            "COVID-19": false
+        }
+    }
+]
