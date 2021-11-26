@@ -2,10 +2,20 @@ name: gk
 
 channels:
   - conda-forge
-
 dependencies:
-  - python
-  - jupyterlab=3.1.17
   - numpy
-  - pandas
   - matplotlib
+  - scikit-learn
+  - scikit-image
+  - pandas
+  - jupyter
+  - jupyterlab=1.2.*
+  - jupyter_contrib_nbextensions
+  - tqdm
+  - seaborn
+  - pip
+  - nodejs
+  - ipywidgets
+  - pip:
+    - plotnine
+    - xlrd
