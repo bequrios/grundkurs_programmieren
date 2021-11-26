@@ -4,6 +4,8 @@ channels:
   - conda-forge
 
 dependencies:
-  # runtime dependencies
   - python
-  - jupyterlab
+  - jupyterlab=3.1.17
+  - numpy
+  - pandas
+  - matplotlib
