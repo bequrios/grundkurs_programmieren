@@ -1,0 +1,9 @@
+name: gk
+
+channels:
+  - conda-forge
+
+dependencies:
+  # runtime dependencies
+  - python
+  - jupyterlab
